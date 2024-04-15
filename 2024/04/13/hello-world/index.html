@@ -197,7 +197,7 @@
       if (!eleGroup) return
       const cleanedLinks = eleGroup.href.replace(/#post-comment$/, '')
 
-      const res = await fetch(`https://disqus.com/api/3.0/threads/set.json?forum=Trace-double.github.io&api_key=&thread:link=${cleanedLinks}`,{
+      const res = await fetch(`https://disqus.com/api/3.0/threads/set.json?forum=Trace-double.github.io&api_key=OVS89K1rwVbh4YQKN9ONwTbYU5MMcU3hZt9a9VuWXMyDiVXDw7dCkMc23KNBMYHS&thread:link=${cleanedLinks}`,{
         method: 'GET'
       })
       const result = await res.json()
